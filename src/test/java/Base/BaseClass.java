@@ -17,5 +17,6 @@ public class BaseClass {
 	driver.manage().window().maximize();
 	
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(29));
+		System.out.println("Hi")
 	}
     }
